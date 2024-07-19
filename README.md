@@ -46,8 +46,3 @@ Create a component inside `src/components`
 ```sh
 npx generate-react-cli component MyComponent
 ```
-
-Create a component inside `src/components/MyComponent2` 
-```sh
-npx generate-react-cli component MyComponent2/MyComponent
-```
