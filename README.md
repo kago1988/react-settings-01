@@ -1,11 +1,14 @@
+Install create-react-app
 ```sh
 npm install -g create-react-app
 ```
 
+Initialize a project with TS 
 ```sh
 npx create-react-app my-app --template typescript
 ```
 
+Install `generate-react-cli`
 ```sh
 npm install -g generate-react-cli 
 ```
@@ -15,6 +18,7 @@ Initialize generate-react-cli in in the root of your project. Same folder as `pa
 npx generate-react-cli init 
 ```
 
+Questions from `create-react-cli`
 ```
 ? Does this project use TypeScript? Yes
 
@@ -39,13 +43,11 @@ https://reactjs.org/docs/code-splitting.html#code-splitting) with each component
 ```
 
 Create a component inside src/components 
-
 ```sh
 npx generate-react-cli component MyComponent
 ```
 
 Create a component inside src/components/MyComponent2 
-
 ```sh
 npx generate-react-cli component MyComponent2/MyComponent
 ```
