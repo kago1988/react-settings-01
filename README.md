@@ -1,7 +1,16 @@
 ```sh
-npx generate-react-cli component MyComponent --type=typescript 
+npm install -g create-react-app
 ```
 
+```sh
+npx create-react-app my-app --template typescript
+```
+
+```sh
+npm install -g generate-react-cli 
+```
+
+Initialize generate-react-cli in in the root of your project. Same folder as `package.json`
 ```sh
 npx generate-react-cli init 
 ```
@@ -27,4 +36,16 @@ npx generate-react-cli init
 
 ? Would you like to create a corresponding lazy file (a file that lazy-loads your component out of the box and enables code splitting: 
 https://reactjs.org/docs/code-splitting.html#code-splitting) with each component you generate? Yes
+```
+
+Create a component inside src/components 
+
+```sh
+npx generate-react-cli component MyComponent
+```
+
+Create a component inside src/components/MyComponent2 
+
+```sh
+npx generate-react-cli component MyComponent2/MyComponent
 ```
